@@ -1,8 +1,7 @@
 const express = require("express");
 const router = express.Router();
 const indexController = require("../controllers/indexController");
-require("dotenv").config();
 
-router.route("/").get(indexController.getLandingPage);
+router.route("/").get(indexController.getIndexPage);
 
 module.exports = router;
