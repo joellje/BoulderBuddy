@@ -29,10 +29,10 @@ const routeSchema = mongoose.Schema({
   },
   videoURL: {
     type: String,
+    default: "",
   },
   userId: {
     type: String,
-    default: "",
   },
   lastUpdatedDate: {
     type: Date,
